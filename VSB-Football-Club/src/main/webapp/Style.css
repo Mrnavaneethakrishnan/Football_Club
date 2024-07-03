@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image:url("F1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height : 100vh;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+div.nv
+{
+	 color:black;
+	 background-color:rgba(255,255,255,0.5);
+	 width:100%;
+	 padding:20px;
+	 box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+	 border-radius:10px;
+	 text-align:center;
+	 
+	 
+}
+input
+{
+	border:1.5px solid black;
+	padding:10px;
+	margin-bottom:10px;
+	width: calc(100% - 22px);
+	box-sizing:border-box;
+}
